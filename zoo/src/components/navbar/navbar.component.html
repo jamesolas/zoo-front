@@ -1,0 +1,26 @@
+<html>
+    <head>
+    </head>
+        <body>
+            <div id = "background"></div>
+            <nav layout="row" layout-align="space-between">
+                <ul>
+                    <li>
+                        <a [routerLink]="['/']">Home</a>
+                    </li>
+                
+                    <li>
+                    <mat-form-field>
+                    <mat-label>Region</mat-label>
+                    <mat-select placeholder="Select Region" (selectionChange)="navigateTo($event.value)">
+                    <mat-option *ngFor="let region of regions" [value]="region.value">
+                        {{region.viewValue}}
+                    </mat-option>
+                    </mat-select>
+                    </mat-form-field>
+                    </li>
+                </ul>                
+            </nav>
+        </body>
+</html>
+
