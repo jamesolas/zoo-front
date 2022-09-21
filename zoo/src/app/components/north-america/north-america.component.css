@@ -1,0 +1,12 @@
+body{
+    background: url("/assets/images/grizzly-bear.jpg");
+    background-size: cover;
+    min-height: 700px;
+}
+
+.text{
+    width: 200px;
+    position: relative;
+    top: 250px;
+    left: 250px;
+}

@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>North America</title>
+    <link rel="stylesheet" type="text/css" href="north-america.component.css" />
+</head>
+<body>
+    
+    <div class="text">   
+        North America has different terrains and climates, which are home to different species of animals.
+            Animals in this region include the grizzly bear, bald eagle, bison, alligator, wolf, beaver, and more.<br><br>
+            Which animal do you like from North America?<br>
+            <input type="text" name="animal" id="animal" #animal [(ngModel)]="input"><br><br>
+            <button type="button" (click)="addAnimal(animal.value)">Submit</button>
+            <button onclick="document.getElementById('animal').value=''">Clear</button>
+            <p class="text2" *ngIf="animalList">You like the {{animals}}.</p>
+    </div>
+    
+
+</body>
+</html>
+

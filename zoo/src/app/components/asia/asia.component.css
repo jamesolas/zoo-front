@@ -1,0 +1,12 @@
+body{
+    background: url("/assets/images/tiger.jpg");
+    background-size: cover;
+    min-height: 700px;
+}
+
+.text{
+    position: relative;
+    top: 250px;
+    left: 200px;
+    width: 200px;
+}

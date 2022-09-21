@@ -1,0 +1,39 @@
+body{
+    height:80px;
+    text-align: center;
+    background-color: aliceblue;
+    margin:0px;
+    padding:0px;
+    border: 0px aqua;
+    /* background: url("/assets/Images/tiger-navbar.jpg"); */
+}
+
+/* background{
+    background-image: url("/assets/images/tiger-navbar.jpg");
+} */
+
+ul{
+    list-style-type: none;
+    margin:0px;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+}
+
+/* mat-form-field{
+    margin:0px;
+}
+
+mat-label{
+    margin:0px;
+}
+
+mat-select{
+    margin:0px;
+}
+
+mat-option{
+    margin:0px;
+} */

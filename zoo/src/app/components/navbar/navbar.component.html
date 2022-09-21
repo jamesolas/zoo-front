@@ -3,21 +3,25 @@
     </head>
         <body>
             <div id = "background"></div>
-            <nav layout="row" layout-align="space-between">
+            <nav layout="row">
                 <ul>
                     <li>
-                        <a [routerLink]="['/']">Home</a>
+                        <a [routerLink]="['/']" (click)="clearSelection()">Home</a>
                     </li>
-                
                     <li>
                     <mat-form-field>
                     <mat-label>Region</mat-label>
-                    <mat-select placeholder="Select Region" (selectionChange)="navigateTo($event.value)">
+                    <mat-select #matRef  (selectionChange)="navigateTo($event.value)">
                     <mat-option *ngFor="let region of regions" [value]="region.value">
                         {{region.viewValue}}
                     </mat-option>
                     </mat-select>
                     </mat-form-field>
+                    </li>
+                    <li>
+                        
+                        <!-- <a [routerLink]="navbar2">Navbar2</a> -->
+                        
                     </li>
                 </ul>                
             </nav>

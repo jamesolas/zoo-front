@@ -1,0 +1,32 @@
+body{
+    background: url("/assets/images/bird1.jpg") no-repeat;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;    
+    background-size: cover;
+    min-height: 700px;
+    /* vertical-align: middle; */
+}
+
+/* .background{
+    background: url("/assets/images/bird1.jpg") no-repeat;
+} */
+    
+.text{
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    margin: 0%;
+    /* justify-content: center; */
+}
+
+form{
+    /* display: flex; */
+    text-align: center;
+    display: flex;
+}

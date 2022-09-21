@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>Zoo</title>
+  <link rel="stylesheet" type="text/css" href="home.component.css" />
+</head>
+<body>
+
+<!-- <div class="background"> -->
+  
+<p class="text">Welcome to the Zoo</p>
+
+<!-- </div> -->
+<br>
+<div id="formDiv">
+  <form id="form" method="post" (ngSubmit)="login()" routerLink="login-home">
+    <input type="email" placeholder="Email" name="email" required />
+    <input type="password" placeholder="Password" name="password" required />
+    <input type="submit" placeholder="loginSubmit" value="Login" />
+  </form>
+
+</div>
+</body>
+</html>
